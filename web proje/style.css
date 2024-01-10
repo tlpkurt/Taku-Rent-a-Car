@@ -1,0 +1,226 @@
+body{
+    background-color:#ffffff;
+}
+
+#header{
+    display: flex;
+    background-color: #dddddd;
+    gap:50px;
+    border-radius: 20px 20px 20px 20px;
+    justify-content: center;            
+    align-items: center;
+}
+#header-logo{
+    margin-left:50;
+    
+
+}
+#header-orta{
+    width : 1000px;
+    display: flex;            
+    justify-content: center;            
+    align-items: center;
+    gap:50px;
+    
+    
+}
+#header-sag{
+    width : 200px;
+    flex-direction: column;
+    margin-right:50;
+}
+
+#verticle{
+    width: 4px;
+    height: 20px;
+    background-color: cornflowerblue;
+}
+
+#araba-alım-tablo{
+    width: 750px;
+    padding: 20px;
+    background-color: #dddddd;
+    margin: auto;
+    border-radius: 30px;
+}
+#kayan-arabalar{
+    width: 750px;
+    padding: 20px;
+    background-color: #dddddd;
+    margin: auto;
+    border-radius: 30px;
+}
+#araba-listesi{
+    width:750px; 
+    height: 1000px;
+    margin:  auto;
+    padding: 20px;
+}
+#araba-kutusu{
+    width: 740px;
+    height: 400px;
+    margin: auto;
+    border:3px solid ;
+    float:left;
+
+}
+#araba-kutusu-2{
+    width: 740px;
+    height: 400px;
+    margin: auto;
+    border:3px solid ;
+    float:right;
+
+}
+#fiyat-tarih{
+    padding-top: 5px;
+    align-items: center;
+    margin:  auto;
+    display: flex;
+    justify-content: space-between;
+}
+#fiyat{
+    font:31px/18px "canaro-xbold";
+    font-style: italic;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+    margin-right: 15px;
+}
+#tarih{
+    background-color: red;
+}
+.box {
+	width: 150px;
+	height: 150px;
+	margin: 2px;
+}
+#araba-özellik-sol{
+    float:left;
+    margin: auto;
+}
+#araba-özellik-sag{
+    float:left;
+    margin: auto;
+    padding-left: 225px;
+}
+#araba-özellik-buton{
+    float:left;
+    margin: auto;
+    padding-left: 150px;
+}
+#araba-resim{
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#kutular{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#footer{
+    display: flex;
+    background-color: #dddddd;
+    gap:100px;
+    border-radius: 40px 40px 40px 40px;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 300px;
+}
+#footer-logo{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#footer-logo img {
+    max-height: 200px; /* Logo maksimum yüksekliği */
+}
+#footer-sağ{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#footer-sağ-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#footer-sağ-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+#footer-sağ-1 a, #footer-sağ-2 a {
+    display: block;
+    margin-bottom: 15px; /* veya istediğiniz miktar */
+}
+#verticle-2{
+    width: 1px;
+    height: 150px;
+    background-color: black;
+}
+#blog{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#blog-icerik-sol{
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+}
+
+#blog-icerik-sol img {
+    width: 100%;
+    height: auto;
+
+}
+#blog-icerik{
+    display:flex;
+}
+#blog-icerik-orta{
+    padding-left: 50px;
+    padding-top: 15px;
+
+}
+#kurumsal{
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+#arac-listesi-kutu{
+    width: 1500px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#arac-listesi-kutu-sol{
+    padding-top: 5px;
+    float:left;
+    align-items: center;
+    margin:  auto;
+    display: flex;
+    justify-content: space-between;
+}
+#arac-listesi-kutu-sağ{
+    padding-top: 5px;
+    float:right;
+    align-items: center;
+    margin:  auto;
+    display: flex;
+    justify-content: space-between;
+}
+#rezervasyon{
+    margin-left: 350px;
+    margin-right: 150px;
+}

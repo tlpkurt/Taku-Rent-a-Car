@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rent a Car</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Rent a Car</h1>
+  </header>
+
+  <main>
+    <section id="car-list">
+      <!-- Araç listesi buraya eklenecek -->
+    </section>
+
+    <section id="reservation-form">
+      <h2>Rezervasyon Formu</h2>
+      <form id="reservationForm">
+        <label for="carSelect">Araç Seçin:</label>
+        <select id="carSelect" name="car">
+          <!-- Araç seçenekleri buraya eklenecek -->
+        </select>
+
+        <label for="startDate">Başlangıç Tarihi:</label>
+        <input type="date" id="startDate" name="startDate">
+
+        <label for="endDate">Bitiş Tarihi:</label>
+        <input type="date" id="endDate" name="endDate">
+
+        <button type="button" onclick="makeReservation()">Rezervasyon Yap</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Rent a Car</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

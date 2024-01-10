@@ -1,0 +1,159 @@
+<html>
+    <head>
+    <title>Rent A Car</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+<!--Header-->
+    <div id="header">
+        <div id="header-logo">
+            <img src="image/logo.png">
+        </div>
+        <div id="header-orta">
+            <a href="index.html" >Anasayfa</a>
+            <a href="kurumsal.html">Kurumsal</a>
+            <a href="arac-listesi.html">Araç Listesi</a>
+            <a href="kampanyalar.html">Kampanyalar</a>
+            <a href="haberler.html">Haberler</a>
+        </div>
+        <div id="verticle"></div>
+        <div id="header-sag">
+            <p>Çağrı Merkezi</p>
+            <p>555 555 5555</p>
+        </div>
+    </div>
+<!--Header Bitiş-->
+<br>
+<br>
+<hr>
+<main id="rezervasyon">
+    <section id="car-list">
+      <!-- Araç listesi buraya eklenecek -->
+    </section>
+
+    <section id="reservation-form">
+      <h2>Rezervasyon Formu</h2>
+      <form id="reservationForm">
+        <label for="carSelect">Araç Seçin:</label>
+        <select id="carSelect" name="car">
+          <!-- Araç seçenekleri buraya eklenecek -->
+        </select>
+
+        <label for="startDate">Başlangıç Tarihi:</label>
+        <input type="date" id="startDate" name="startDate">
+
+        <label for="endDate">Bitiş Tarihi:</label>
+        <input type="date" id="endDate" name="endDate">
+
+        <button type="button" onclick="makeReservation()">Rezervasyon Yap</button>
+      </form>
+    </section>
+  </main>
+<br>
+<section>
+    <div id="arac-listesi-kutu">
+        <h2>Toyata Corolla</h2>
+        <div id="arac-listesi-kutu-sol">
+            <img src="image/2287423-toyota-corolla-1-8-hybrid.png">
+        </div>
+        <div id="arac-listesi-kutu-sağ">
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam facilis, repudiandae mollitia asperiores minus quidem iure expedita dignissimos distinctio ad eligendi illo, explicabo esse animi eos dolorum ipsa. Accusantium, ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem vitae a reprehenderit voluptate eaque deserunt aut, repudiandae odio aperiam molestiae optio, eum quaerat iusto eveniet. Rem ipsum a ipsa maiores!
+            </p>
+            <div id="araba-özellik-buton"><button>İncele</button></div>
+        </div>
+    </div>
+</section>
+<section>
+    <div id="arac-listesi-kutu">
+        <h2>Toyata Corolla</h2>
+        <div id="arac-listesi-kutu-sol">
+            <img src="image/2287423-toyota-corolla-1-8-hybrid.png">
+        </div>
+        <div id="arac-listesi-kutu-sağ">
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam facilis, repudiandae mollitia asperiores minus quidem iure expedita dignissimos distinctio ad eligendi illo, explicabo esse animi eos dolorum ipsa. Accusantium, ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem vitae a reprehenderit voluptate eaque deserunt aut, repudiandae odio aperiam molestiae optio, eum quaerat iusto eveniet. Rem ipsum a ipsa maiores!
+            </p>
+            <div id="araba-özellik-buton"><button>İncele</button></div>
+        </div>
+    </div>
+</section>
+<section>
+    <div id="arac-listesi-kutu">
+        <h2>Toyata Corolla</h2>
+        <div id="arac-listesi-kutu-sol">
+            <img src="image/2287423-toyota-corolla-1-8-hybrid.png">
+        </div>
+        <div id="arac-listesi-kutu-sağ">
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam facilis, repudiandae mollitia asperiores minus quidem iure expedita dignissimos distinctio ad eligendi illo, explicabo esse animi eos dolorum ipsa. Accusantium, ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem vitae a reprehenderit voluptate eaque deserunt aut, repudiandae odio aperiam molestiae optio, eum quaerat iusto eveniet. Rem ipsum a ipsa maiores!
+            </p>
+            <div id="araba-özellik-buton"><button>İncele</button></div>
+        </div>
+    </div>
+</section>
+<section>
+    <div id="arac-listesi-kutu">
+        <h2>Toyata Corolla</h2>
+        <div id="arac-listesi-kutu-sol">
+            <img src="image/2287423-toyota-corolla-1-8-hybrid.png">
+        </div>
+        <div id="arac-listesi-kutu-sağ">
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam facilis, repudiandae mollitia asperiores minus quidem iure expedita dignissimos distinctio ad eligendi illo, explicabo esse animi eos dolorum ipsa. Accusantium, ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem vitae a reprehenderit voluptate eaque deserunt aut, repudiandae odio aperiam molestiae optio, eum quaerat iusto eveniet. Rem ipsum a ipsa maiores!
+            </p>
+            <div id="araba-özellik-buton"><button>İncele</button></div>
+        </div>
+    </div>
+</section>
+<section>
+    <div id="arac-listesi-kutu">
+        <h2>Toyata Corolla</h2>
+        <div id="arac-listesi-kutu-sol">
+            <img src="image/2287423-toyota-corolla-1-8-hybrid.png">
+        </div>
+        <div id="arac-listesi-kutu-sağ">
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam facilis, repudiandae mollitia asperiores minus quidem iure expedita dignissimos distinctio ad eligendi illo, explicabo esse animi eos dolorum ipsa. Accusantium, ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem vitae a reprehenderit voluptate eaque deserunt aut, repudiandae odio aperiam molestiae optio, eum quaerat iusto eveniet. Rem ipsum a ipsa maiores!
+            </p>
+            <div id="araba-özellik-buton"><button>İncele</button></div>
+        </div>
+    </div>
+</section>
+<br>
+<br>
+<hr>
+<section>
+<!--Footer-->
+    <br>
+    <br>
+    <hr>
+    <div id="footer">
+        <div id="footer-logo">
+            <img src="image/LOGO-footer.png">
+            <p>Copyright © 2021 Tüm Hakları Saklıdır.</p>
+        </div>
+        <div id="footer-orta">
+            <div id="verticle-2"></div>
+        </div>
+        <div id="footer-sağ">
+            <h3>Site içi Bağlantılar:</h3>
+        </div>
+        <div id="footer-sağ-1">
+            <a href="index.html" ><img src="image/angle-right.png">Bizi Tanıyın</a>
+            <a href="kurumsal.html"><img src="image/angle-right.png">Araç Kiralama Sözleşmesi</a>
+            <a href="arac-listesi.html"><img src="image/angle-right.png">Sıkça Sorulan Sorular</a>
+        </div>
+        <div id="footer-sağ-2">
+            <a href="index.html" ><img src="image/angle-right.png">İletişim</a>
+            <a href="kurumsal.html"><img src="image/angle-right.png">Genel Kiralama Koşulları</a>
+            <a href="arac-listesi.html"><img src="image/angle-right.png">Bilgilendirme Formu</a>
+        </div>
+        </div>
+    </div>
+<!--Footer Bitiş-->
+</section>
+<script src="script.js"></script>
+    </body>
+</html>
